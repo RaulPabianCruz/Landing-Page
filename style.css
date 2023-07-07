@@ -7,7 +7,6 @@ body {
 }
 
 .section {
-    height: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +53,6 @@ a {
     width: 70%;
     padding: 100px 0px;
     display: flex;
-    justify-content: space-between;
 }
 
 .text-container {
@@ -63,7 +61,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /*flex-wrap: wrap;*/
     flex: 0 1 auto;
 }
 
@@ -102,6 +99,8 @@ button {
 }
 
 .sec-2 h2 {
+    font-size: 36px;
+    color: #1F2937;
     margin: 40px 0px;
 }
 
@@ -174,7 +173,7 @@ button {
     align-items: center;
 }
 
-.rectangle-text h1 {
+.rectangle-text h3 {
     font-size: 20px;
     color: #F9FAF8;
     margin: 0px;
