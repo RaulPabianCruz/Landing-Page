@@ -7,10 +7,11 @@ body {
 }
 
 .section {
+    height: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 0;
+    flex: 1 1 auto;
 }
 
 .sec-1 {
@@ -105,14 +106,14 @@ button {
 }
 
 .images-container {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: center;
 }
 
 .card {
     width: 150px;
-    margin: 0px 30px;
+    margin: 0px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,11 +134,37 @@ button {
 
 .sec-3 {
     background-color: #E5E7EB;
+    padding: 70px 0px;
+}
+
+.sec-3 p {
+    width: 50%;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+    margin: 0px;
+    align-self: center;
+}
+
+.sec-3 h3 {
+    width: 50%;
+    margin: 20px 0px 0px 0px;
+    padding-right: 80px;
+    text-align: right;
+    align-self: center;
 }
 
 .rectangle {
-    display: flex;
+    width: 60%;
     background-color: #3882F6;
+    padding: 40px 100px;
+    margin: 90px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rectangle-text {
@@ -147,14 +174,36 @@ button {
     align-items: center;
 }
 
-.footer {
+.rectangle-text h1 {
+    font-size: 20px;
+    color: #F9FAF8;
+    margin: 0px;
+    align-self: flex-start;
+}
 
+.rectangle-text p {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.rectangle button {
+    margin-left: auto;
+    border: 1px solid #F9FAF8;
+}
+
+.footer {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1 1 auto;
     align-self: stretch;
 }
+
+
 
 
 
